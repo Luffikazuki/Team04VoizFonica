@@ -128,3 +128,25 @@ body{
 	margin-top:20px;
 }
 
+.billContent{
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	margin-top:7px;
+background:#0076ff;
+width:100%;
+color:white;
+font-size:1.2em;
+text-align:center;
+font-family:helvetica;
+line-height:40px;
+}
+
+.billBox{
+	width:100%;
+	
+	border:1px solid none;
+	margin:5px;
+	height:95.4%;
+	border-radius:5px;
+}
+
