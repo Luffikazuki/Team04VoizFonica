@@ -9,7 +9,7 @@ body{
 	background: #000;
 	color:white;
 	padding:0;
-	
+
 }
 
 .navbar-collapse {
@@ -25,7 +25,7 @@ body{
 }
 
 .nav-header-list{
-	
+
 	justify-content:bottom;
 	width:200px;
 	height:50px;
@@ -38,7 +38,7 @@ body{
 	color:black;
 	display:inline;
 	padding:4px;
-	
+
 }
 
 .navbar-brand {
@@ -84,7 +84,7 @@ body{
 
 .footer-copyright {
 	color: #666;
-	
+
 }
 
 
@@ -143,10 +143,17 @@ line-height:40px;
 
 .billBox{
 	width:100%;
-	
+
 	border:1px solid none;
 	margin:5px;
 	height:95.4%;
 	border-radius:5px;
 }
 
+#PostPaid-planDetails{
+	display:none;
+}
+
+#PostPaid-billDetails{
+	display:contents;
+}

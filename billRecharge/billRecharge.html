@@ -2,29 +2,29 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Header part</title>
 		<link rel="stylesheet" type="text/css" href="billRecharge.css">
 	</head>
-	
+
 	<body> <!--Start of body-->
-	
+
 	<!-- Header / Navigation Starts-->
 	<div class="container-fluid headerSection">
-	
+
 	<nav class="navbar navbar-expand-md">
-	
-		
+
+
 		<a class="navbar-brand" href="#">
 			<img class="logo-brand" src="images/logo.png" alt="VoizFonica" title="VoizFonica"/>
 		</a>
-		
+
 		<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-	
+
 		<div class="collapse navbar-collapse nav-header-list" id="main-navigation">
 			<ul class="navbar-nav">
 				<li class="nav-item">
@@ -47,31 +47,31 @@
 				</li>
 			</ul>
 		</div>
-		
+
 		<a class="navbar-brand" href="#">
 			<img class="login-brand" src="images/login_icon.jpg" alt="Login/SignUP" title="Login/SignUP"/>
 		</a>
-		
-		
-		
-		
-		
+
+
+
+
+
 	</nav>
-	
-	
-	
+
+
+
 	</div>
-	
+
 	<!-- Header / Navigation Ends -->
-	
+
 	<!-- Body section starts here -->
-	
+
 	<div class="container">
-	
+
 		<div class="rows" style="height:430px;">
-	
+
 			<div class="col-lg-4 boxMenu">
-	
+
 				<div class="dropdown dropright">
 					<button type="button" class="btn btn-primary dropdown-toggle boxMenuContent" data-toggle="dropdown">
 						Bill Pay
@@ -81,8 +81,8 @@
 						<a class="dropdown-item" href="#">Dongle</a>
 					</div>
 				</div>
-		
-	
+
+
 				<div class="dropdown dropright">
 					<button type="button" class="btn btn-primary dropdown-toggle boxMenuContent" data-toggle="dropdown">
 						Recharge / New Plans
@@ -93,25 +93,31 @@
 						<a class="dropdown-item" href="#">Dongle</a>
 					</div>
 				</div>
-	
+
 			</div>
-			
+
 			<div class="col-lg-8 boxContent">
-			
+
 				<!--div class="billContent">
 					Post-Paid
 				</div-->
-				
+
 				<div class="billBox">
-				
+
 					<table class="table table-striped" style="width:100%">
 						<thead>
 							<tr>
-								<th colspan="2" style="text-align:center;color:white;background:#0076ff;border-top-left-radius:5px;">POST-PAID</th>
+								<th style="text-align:center;color:white;background:#0076ff;border-top-left-radius:5px;cursor:pointer;" id="PostPaid-bill">
+									PostPaid-BillPay
+								</th>
+								<th style="text-align:center;color:#0076ff;background:#ffffff;border-top-right-radius:5px;cursor:pointer;" id="PostPaid-Plan">
+									Plan Details
+								</th>
 							</tr>
 						</thead>
-						
-						<tbody>
+						<!-- PostPaid Bill Details start here -->
+
+						<tbody id="PostPaid-billDetails">
 							<tr>
 								<td>Account Number</td>
 								<td>78545857463467</td>
@@ -129,25 +135,49 @@
 								<td>15/09/2019</td>
 							</tr>
 						</tbody>
-						
+
 						<tfoot>
 							<tr>
 								<td> <button type="button" class="btn btn-primary">Make Payment</button>
 								</td>
 							</tr>
 						</tfoot>
-						
+
+						<!--PostPaid bill Details end here -->
+
+						<!-- PostPaid Plan Details start here -->
+
+						<tbody id="PostPaid-planDetails">
+							<tr>
+								<td>Account Number</td>
+								<td>78545857463467</td>
+							</tr>
+							<tr>
+								<td>Plan</td>
+								<td>The Prestige</td>
+							</tr>
+							<tr>
+								<td>Data Limit</td>
+								<td>1000 GB</td>
+							</tr>
+							<tr>
+								<td>Speed</td>
+								<td>150 Mbps</td>
+							</tr>
+						</tbody>
+						<!--PostPaid Plan Details end here -->
+
 					</table>
 				</div>
-				
+
 			</div>
-	
-	
+
+
 		</div>
 	</div>
-	
+
 	<!--Body section ends here -->
-	
+
 	<!-- Footer starts -->
 	<footer class="page-footer">
 		<div class="container">
@@ -169,7 +199,7 @@
     <li class="nav-item">
     <a class="nav-link" href="#">Contact Us</a>
   </li>
-  </ul>			
+  </ul>
 		</div>
 
 		<div class="container">
@@ -192,21 +222,22 @@
     <li class="nav-item">
     <a href="https://www.linkedin.com/"> <img id="footer-image" src = "images/link_icon.png" href="#"></a>
   </li>
-  </ul	
+  </ul
 		<br>
 		<hr>
 		<div class="footer-copyright text-center">© 2019 VoizFonica. All Rights Reserved </div>
 	</footer>
 
-	
-	
-	
-	
-	
+
+
+
+
+
 	<!-- CDN's of js and jquery -->
 	 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="billRecharge.js"></script>
 	</body> <!--End of body -->
-	
+
 </html>
