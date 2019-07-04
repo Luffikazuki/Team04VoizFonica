@@ -11,11 +11,11 @@
 	
 	<body> <!--Start of body-->
 	
-	<!-- Header / Navigation Starts-->
+	<!-- Header / Navigation Starts--><b>
 	<div  class="container-fluid headerSection">
         <nav class="navbar navbar-expand-md">
 
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="home.html">
                 <img class="logo-brand" src="images/logo.png" alt="VoizFonica" title="VoizFonica"/>
             </a>
 
@@ -51,7 +51,7 @@
             </a>
 
         </nav>
-	</div>
+	</div></b>
 	
 	<!-- Header / Navigation Ends -->
         
@@ -61,8 +61,8 @@
         <form  method="post">
             <img src="newconn.jpg"  width=100px height=100px>
             <div class="formstyle">
-                <label  for="firstname">Contact name</label>
-                <input  type="text" name="firstname" >
+                <label  for="firstname">ContactName</label>
+                <input  type="text" name="firstname" size="35" >
             </div>
 
             <div class="formstyle" >
@@ -70,25 +70,25 @@
                  <textarea style="background-color: powderblue;"  cols="40" rows="7" ></textarea> 
             </div>
             <div class="formstyle">
-                <label for="number">Contact Number</label>
-                <input  type="text" name="number" >
+                <label for="number">ContactNumber</label>
+                <input  type="text" name="number" size="35" >
             </div>
             
             <div class="formstyle">
-                <label for="aadhar">Aadhar Number</label>
-                <input  type="text" name="aadhar" >
+                <label for="aadhar">AadharNumber</label>
+                <input  type="text" name="aadhar" size="35" >
             </div>
             
             <div class="formstyle">
-                <label for="pan">Pan Number</label>
-                <input  type="text" name="pan" >
+                <label for="pan">PanNumber</label>
+                <input  type="text" name="pan" size="35" >
             </div>
             
            
 
             <div class="formstyle" >
-                <label for="plan">Required Plan</label>
-                <select name="plan" id="plan">
+                <label for="plan">RequiredPlan</label>
+                <select name="plan" id="plan" style="width:200px">
                         <option value="-1">please select</option>
                         <option value="1">PrePaid</option>
                         <option value="2">PostPaid</option>
@@ -98,24 +98,53 @@
             
             <div class="formstyle">
                 <label for="locality">Locality</label>
-                <input  type="text" name="locality" >
+                <input  type="text" name="locality" size="35">
             </div>
             
             <div class="formstyle">
                 <label for="pin">Pincode</label>
-                <input type="text" name="pin" >
+                <input type="text" name="pin" size="23" >
             </div>
             
-            <div class="formstyle" >
-                <input type="submit"  value="Register">
-            </div>
+            <!-- <div class="formstyle" >
+                <input type="submit"  value="Register" style="width:110px">
+            </div> -->
+            
+<div class="formstyle">         
+            
+<input type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" value="Register" style="display:inline-block;">
+ 
+
+        
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document" style="color:green">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Congratulation</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Registration Successfull!!!<br>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" style="width:100px;float:right">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>           
+            
+            
+            
+            
         
     </form>
     </div>    
 	<!-- Register / Navigation Ends -->
         
 	
-    <!-- Footer starts -->
+    <!-- Footer starts --><b>
 	<footer class="page-footer">
        
 		<div class="container">
@@ -163,7 +192,7 @@
             <div class="footer-copyright text-center">© 2019 VoizFonica. All Rights Reserved </div>
         </div>
         
-	</footer>
+        </footer></b>
 
 	
 	
