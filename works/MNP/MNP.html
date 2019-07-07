@@ -5,8 +5,8 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>E-Store | VoizFonica</title>
-		<link rel="stylesheet" type="text/css" href="eStore.css">
+		<title>MNP | VoizFonica</title>
+		<link rel="stylesheet" type="text/css" href="MNP.css">
 	<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css"/></head>
 	
 	<body> <!--Start of body-->
@@ -17,7 +17,7 @@
     <nav class="navbar navbar-expand-sm bg-dark ">
 
 
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="home.html">
         <img class="logo-brand" src="images/logo.png" alt="VoizFonica" title="VoizFonica"/>
       </a>
 
@@ -61,26 +61,59 @@
   </div>
 <!--Header / Navigation ends here -->
 
-	<!-- E-store -->
-	<div class="bg"> 
+	<!-- MNP -->
+	
 	<div class="row">
-	<div class="col-lg-4 col-md-4 col-sm-4">
-	<form>
-		<input type="text" id="SearchPlace" placeholder="Enter Location" maxlength="40">
-	</form>
+	<div class="col-lg-6 col-md-6 col-sm-6 formstyle">
+	
+			<form class="form-horizontal">
+			<div class="form-group">
+					<label class="control-label col-sm-2" for="mobileNumber">Mobile_Number</label>
+					<div class="col-sm-10">
+					<input type="text"  id="mobileNumber" placeholder="Enter your Mobile No." maxlength="10">
+			</div>
+			</div>
+			<div class="form-group">
+					<label class="control-label col-sm-2" for="simNumber">SIM_Number</label>
+					<div class="col-sm-10"> 
+					<input type="text"  id="simNumber" placeholder="Enter your SIM Number" maxlength="25">
+			</div>
+			</div>
+			<div class="form-group">
+					<label class="control-label col-sm-2" for="portKey">Port_Key</label>
+					<div class="col-sm-10"> 
+					<input type="text"  id="portKey" placeholder="Enter your Port Key" maxlength="15">
+			</div>
+			</div>
+			<div class="form-group"> 
+			<div class="col-sm-offset-2 col-sm-10">
+			<button type="submit" class="btn btn-primary btn-sm-2">Submit</button>
+			</div>
+			</div>
+			</form>
 	</div>
-	<div class="col-lg-4 col-md-4 col-sm-4">
-		<button type="submit" class="btn btn-success" id="complaintSubmit">Know your nearest store</button>
+	<div class="col-lg-6 col-md-6 col-sm-6 formstyle">
+		
+					 <marquee direction="up" height="300" scrollamount="2" scrolldelay="170"  onmousedown="this.stop()" onmouseover="this.stop()" onmousemove="this.stop()" onmouseout="this.start()" vspace="15">
+
+					 <p class="three"><span class="sidelink">
+						Switch to VoizFonica, retain your number, just three steps to go!!!<br>
+						Around 3.8m subscribers are moving to VoizFonica every year!!<br>
+						Get 20GB extra for six months!!!<br>
+						Get 100% Cashback on recharge of Rs.399/-!!!<br>
+						Special annual plan @1299!!!<br>
+						Assured wake up calls!!! <br>
+						Rs.299/- 84GB 240 days!!! Only for MNP customers!!<br>
+						Exclusive 10% offers for Global attractions<br>
+						Top up for 30 // Free upto 30GB<br>
+						
+
+
+					</p></span></marquee>
 	</div>
-	<div class="col-lg-4 col-md-4 col-sm-4">
-		<textarea rows="3" cols="30" placeholder="Address for nearest E-Store"></textarea>
-		<div class="map1"><iframe width="270" height="200" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.0451035793762!2d77.66034331437362!3d12.840361990942057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6c867f4c5ffd%3A0x348229ed84aac52a!2siPRIMED+Education+Solutions+Private+Limited!5e0!3m2!1sen!2sin!4v1536056241065" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-	</iframe>
 	</div>
-	</div>
-	</div>
-	</div>
-	<!-- E-Store command ends -->
+	
+	<!-- MNP command ends -->
 	<!-- Footer starts -->
 	<b><footer class="page-footer">
 		<div class="container">

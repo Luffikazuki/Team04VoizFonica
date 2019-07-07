@@ -78,15 +78,19 @@ margin-right:100px;
 }
 
 /* Header section styles end here */
-/* Style for estore */
+/* Style for MNP */
 
-
-.bg{
-	background-image: url("images/store.jpg");
+.formstyle{
+	border: 10px solid #5DADE2;
 	padding: 50px;
+	background-color: #E5E8E8;
+	
+}
+.three{
+	color: #D35400  ;
+	line-height: 40px
 }
 
- 
 /*Footer section styles start here */
 .page-footer {
 	background-color: #000000;
