@@ -71,6 +71,23 @@
 
 
 /* postpaid section styles starts here */
+table{
+   
+                background-color:cornsilk;
+                padding-left:20px; 
+            
+                
+            padding-top:10px;
+            margin: 0 auto; 
+            width:500px;
+            border-style:groove;
+            border-radius:20px;
+            padding-bottom: 20px;
+            margin-top:25px;
+}
+input[type=submit] {
+    width: 7em;  height: 2em;
+}
 
             
 /* postpaid section styles ends here */
