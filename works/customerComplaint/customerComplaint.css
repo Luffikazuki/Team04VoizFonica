@@ -8,6 +8,18 @@
 	
 }
 
+.nav-header-list{
+
+justify-content:bottom;
+width:200px;
+height:inherit;
+margin-left:100px;
+margin-right:100px;
+}
+.container-fluid{
+	padding-left: 0;
+	padding-right:0;
+}
 .navbar-collapse {
 	justify-content: center;
 }
@@ -68,25 +80,35 @@
 
 /* Header section styles end here */
 /* Customer complaint section styles  */ 
-
+.row{
+	font-weight: bold;
+	font-family: helvetica;
+	
+}
 .col{
 	
 	text-align: center;
 	border-left: 6px solid #00ced1;
-	background-color: 	#f0f0f0;
+	
 }
 .complainttitle{
 	font-weight: bold;
-	color: 		#00ced1;
 	margin-bottom:30px;
 	margin-top: 30px;
+	color: #00ced1;
 
 }
 .overlay {
     background-image: url("images/faq.jpg") ;
-   
+	
+  
    
 }
+.complaintBackground{
+	background-image: url("images/ques.png") ;
+}
+
+
 /* Customer complaint section style end here */ 
 
 /*Footer section styles start here */
