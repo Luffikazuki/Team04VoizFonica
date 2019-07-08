@@ -58,20 +58,22 @@
     <!-- Login / Navigation Starts -->  
         <div style="overflow-y:auto; height:600px;">
           
-         <form method="post">
+         <form method="post" action="dashboard.html">
                <img src="default-user-image.jpg"  width=100px height=100px>
-            <div class="formstyle">
+           <div class="formstyle" >
                 <label for="mobileno">MobileNumber</label>
-                <input placeholder="ph.no / service id" type="text" name="mobileno" size="35" >
+                <input placeholder="ph.no / service id" type="text" name="mobileno" size="35"  required>
             </div>
 
             <div class="formstyle">
                 <label for="pass">Password</label>
-                <input placeholder="Password / OTP" type="text" name="pass" size="35" >
+                <input placeholder="Password / OTP" type="text" name="pass" size="35"  required>
             </div>
+             
+            
 
             <div class="formstyle" >
-                <input type="submit"  value="Login" style="width:110px" >
+                <a href="dashboard.html"><button type="submit"  class="btn btn-primary" style="width:110px" required>Login</button></a>
             </div>
 
             <div>
