@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>User Dashboard | VoizFonica </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="dashboardStyle.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse visible-xs">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>    
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li ><a href="dashboard.html">Dashboard</a></li>		
+		 <li class="active"><a href="profile.html">Profile</a></li> 
+		  <li><a href="unsubscribe.html">Unsubsricbe</a></li> 
+		 <li><a href="index.html">Logout</a></li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+<br><br>
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav hidden-xs">
+	<br>
+      <img src = "images/logo-small.png" height = "150px" width = "150px" > <br><br>
+      <ul class="nav nav-pills nav-stacked">
+        <li ><a href="dashboard.html">Dashboard</a></li> 
+		 <li class="active"><a href="profile.html">Profile</a></li>
+		   <li><a href="unsubscribe.html">Unsubsricbe</a></li>
+		  <li><a href="index.html">Logout</a></li>
+			
+      </ul>
+    </div>
+      
+      <!-- edit form column -->
+      <div class="col-md-9 personal-info">
+        <div class="alert alert-info alert-dismissable">
+          <a class="panel-close close" data-dismiss="alert">×</a> 
+          <i class="fa fa-coffee"></i>
+          Editing your profile will make the changes permanently in your account.
+        </div>
+        <h3>Edit Profile</h3>
+		<hr class="my-4">
+        
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+            <label class="col-lg-3 control-label">First name:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Last name:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" >
+            </div>
+          </div>
+		  <div class="form-group">
+            <label class="col-md-3 control-label">Username:</label>
+            <div class="col-md-8">
+              <input class="form-control" type="text" >
+            </div>
+          </div>
+         
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Email:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text">
+            </div>
+          </div>
+          
+          
+          <div class="form-group">
+            <label class="col-md-3 control-label">Password:</label>
+            <div class="col-md-8">
+              <input class="form-control" type="password" >
+            </div>
+          </div>
+		            <div class="form-group">
+            <label class="col-lg-3 control-label">PAN Number:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text">
+            </div>
+          </div>
+		  
+		            <div class="form-group">
+            <label class="col-lg-3 control-label">Aadhar Number:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="number">
+            </div>
+          </div>
+		  
+		  
+		            <div class="form-group">
+            <label class="col-lg-3 control-label">Address:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-md-3 control-label"></label>
+            <div class="col-md-8">
+           <a href="profile.html"><input type="button" class="btn btn-primary" value="Save Changes"> </a>
+              <span></span>
+              <a href="#"><input type="reset" class="btn btn-default" value="Cancel"></a>
+            </div>
+          </div>
+        </form>
+      </div>
+  </div>
+</div>
+<hr>
+
+</body>
+</html>
